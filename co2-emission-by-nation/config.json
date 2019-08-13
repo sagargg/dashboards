@@ -6,17 +6,7 @@
         "resources": [
           {
             "datasetId": "co2-fossil-by-nation",
-            "name": "fossil-fuel-co2-emissions-by-nation",
-            "transform": [
-              {
-                "expression": "data['Year'] == 2014",
-                "type": "filter"
-              },
-              {
-                "expression": "data['Per Capita'] > 2.0",
-                "type": "filter"
-              }
-            ]
+            "name": "fossil-fuel-co2-emissions-by-nation"
           }
         ],
         "specType": "vega",
