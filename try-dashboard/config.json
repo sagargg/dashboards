@@ -1,32 +1,32 @@
 {
     "widgets":[
-        {
-            "elementId": "visualization",
-            "view": {
-                "resources": [
-                    {
-                        "datasetId": "world-religion-projections",
-                        "name": "by_number_of_population",
-                        "transform": [
-                            {
-                                "expression": "data['Region'] == 'World'",
-                                "type": "filter"
-                            }
-                        ]
-                    }
-                ],
-                "specType": "simple",
-                "spec": {
-                    "group": "Year",
-                    "series": [
-                        "Christians",
-                        "Muslims",
-                        "Hindus"
-                    ],
-                    "type": "bar"
+    {
+        "elementId": "visualization",
+        "view": {
+            "resources": [
+                {
+                    "datasetId": "world-religion-projections",
+                    "name": "by_number_of_population",
+                    "transform": [
+                        {
+                            "type": "filter",
+                            "expression": "data['Region'] == 'World'"
+                        }
+                    ]
                 }
-            }
+            ],
+            "spec": {
+                "type": "bar",
+                "group": "Year",
+                "series": [
+                    "Christians",
+                    "Muslims",
+                    "Hindus"
+                ]
+            },
+            "specType": "simple"
         }
-    ],
-        "datasets":["https://datahub.io/sagargg/world-religion-projections"]
+    }
+],
+    "datasets":["https://datahub.io/sagargg/world-religion-projections"]
 }
