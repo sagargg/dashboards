@@ -16,7 +16,7 @@
                 }
             ],
             "spec": {
-                "type": "bar",
+                "type": "line",
                 "group": "Year",
                 "series": [
                     "Christians",
@@ -24,7 +24,7 @@
                     "Hindus"
                 ]
             },
-            "specType": "vega"
+            "specType": "simple"
         }
     }
 ],
