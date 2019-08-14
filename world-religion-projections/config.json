@@ -1,7 +1,7 @@
 {
     "widgets":[
     {
-        "elementId": "visualization",
+        "elementId": "viz",
         "view": {
             "resources": [
                 {
