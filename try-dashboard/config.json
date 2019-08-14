@@ -17,6 +17,7 @@
                 ],
                 "specType": "simple",
                 "spec": {
+                    "group": "Year",
                     "series": [
                         "Christians",
                         "Muslims",
